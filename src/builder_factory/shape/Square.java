@@ -1,4 +1,4 @@
-package builder_factory.color;
+package builder_factory.shape;
 
 public class Square implements Shape {
 

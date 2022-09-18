@@ -1,4 +1,4 @@
-package factory.factory;
+package builder_factory.factory;
 
 public interface Factory {
 }

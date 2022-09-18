@@ -1,4 +1,4 @@
-package builder_factory.shape;
+package builder_factory.color;
 
 public class Green implements Color {
     @Override

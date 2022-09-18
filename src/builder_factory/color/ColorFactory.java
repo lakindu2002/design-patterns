@@ -1,4 +1,4 @@
-package builder_factory.shape;
+package builder_factory.color;
 
 import builder_factory.factory.Factory;
 import builder_factory.color.Blue;
@@ -7,7 +7,7 @@ import builder_factory.color.Green;
 import builder_factory.color.Red;
 
 public class ColorFactory implements Factory {
-    public Color getShape(String type) {
+    public Color getColor(String type) {
         if (type.equalsIgnoreCase("red")) {
             return new Red();
         }
