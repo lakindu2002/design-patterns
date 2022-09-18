@@ -14,7 +14,7 @@ public class VehicleAssembler {
         this.builder.addOuterFramework();
     }
 
-    public void getVehicle(){
-        this.builder.getVehicle();
+    public Vehicle getVehicle() {
+        return this.builder.getVehicle();
     }
 }
