@@ -1,9 +1,9 @@
-package builder_factory.shape;
+package builder_factory.color;
 
-import builder_factory.color.Circle;
-import builder_factory.color.Rectangle;
-import builder_factory.color.Shape;
-import builder_factory.color.Square;
+import builder_factory.shape.Circle;
+import builder_factory.shape.Rectangle;
+import builder_factory.shape.Shape;
+import builder_factory.shape.Square;
 import builder_factory.factory.Factory;
 
 public class ShapeFactory implements Factory {
