@@ -5,4 +5,5 @@ public abstract class VehicleBuilder {
     public abstract void addEngine();
     public abstract void addOuterFramework();
     public abstract void addChassy();
+    public abstract void getVehicle();
 }

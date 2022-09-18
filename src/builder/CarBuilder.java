@@ -20,4 +20,9 @@ public class CarBuilder extends VehicleBuilder{
     public void addChassy() {
         System.out.println("Adding Car Chassy");
     }
+
+    @Override
+    public void getVehicle() {
+        System.out.println("Returning the car");
+    }
 }

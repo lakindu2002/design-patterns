@@ -20,4 +20,9 @@ public class BusBuilder extends VehicleBuilder{
     public void addChassy() {
         System.out.println("Adding Bus Chassy");
     }
+
+    @Override
+    public void getVehicle() {
+        System.out.println("Returning the Bus");
+    }
 }
